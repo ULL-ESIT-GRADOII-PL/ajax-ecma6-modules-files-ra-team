@@ -1,5 +1,7 @@
 # Práctica 2: Comma separated values (CSV) with AJAX
 
+![AJAX Image](http://www.svgopen.org/2008/papers/82-Web_Mapping_and_WebGIS_do_we_actually_need_to_use_SVG/ajax.jpg "AJAX Image")
+
 ## INFO:
 
 ### jQuery.get( url [, data ] [, success ] [, dataType ] )
