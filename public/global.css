@@ -1,6 +1,20 @@
 
+
+h1 {
+	font-family:font-name;
+	src: url(fonts/);
+}
+
+@keyframes backgroundAnim {
+    0% {background-color: #B3CAD1;}
+    50% {background-color: #FF5555;}
+		100% {background-color: #B3CAD1;}
+}
+
 body {
-	background-color: #B3CAD1;
+	animation-name: backgroundAnim;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
 }
 
 table.center {
@@ -32,7 +46,19 @@ button {
 	padding-right: 100px;
 }
 
+@keyframes tableAnim {
+    0% {background-color:white;}
+    50% {background-color:red;}
+		100% {background-color:white;}
+}
 
-.output tr:nth-child(odd)    { background-color:#eee; }
+
+.output tr:nth-child(odd)    {
+	background-color:#eee;
+}
 .output tr:nth-child(even)   { background-color:#00FF66; }
-.error td{ background-color: red; }
+.error td{
+	animation: tableAnim;
+	animation-duration: 1s;
+	animation-iteration-count: infinite;
+}
