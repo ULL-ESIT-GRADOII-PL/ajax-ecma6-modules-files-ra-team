@@ -27,6 +27,11 @@ button {
   font-size: 16px;
 }
 
+#image {
+	float: right;
+	padding-right: 100px;
+}
+
 
 .output tr:nth-child(odd)    { background-color:#eee; }
 .output tr:nth-child(even)   { background-color:#00FF66; }
