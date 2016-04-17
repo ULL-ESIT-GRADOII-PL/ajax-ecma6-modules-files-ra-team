@@ -1,13 +1,22 @@
 
 
+@font-face {
+	font-family: Sertig;
+	src: url(fonts/Sertig.otf);
+}
+
+@font-face {
+	font-family: Track;
+	src: url(fonts/Track.ttf);
+}
+
 h1 {
-	font-family:font-name;
-	src: url(fonts/);
+	font-family: Sertig;
 }
 
 @keyframes backgroundAnim {
     0% {background-color: #B3CAD1;}
-    50% {background-color: #FF5555;}
+    50% {background-color: #B4FFFF;}
 		100% {background-color: #B3CAD1;}
 }
 
@@ -18,18 +27,24 @@ body {
 }
 
 table.center {
-	font-family: courier;
+	font-family: Track;
 	font-weight: bold;
 	color: black;
 	text-align: center;
 	margin-left: 90px;
 	margin-top: 10px;
+	border-radius: 18px;
 	border: none;
 	border-collapse: collapse;
   background-color: #50514F;
 }
 
+table {
+	height: 250px;
+}
+
 button {
+	font-family: Track;
 	border-radius: 8px;
   background-color: #59FFA0;
   border: none;
