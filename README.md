@@ -44,6 +44,20 @@ The success callback function is passed the returned data, which will be an XML 
 Application: https://csvajaxrateam.herokuapp.com/ <br>
 Testing: https://csvajaxrateam.herokuapp.com/tests
 
+## USED TECHNOLOGIES
+- jQuery <br>
+- AJAX <br>
+- SASS <br>
+- Underscore <br>
+- Karma + Mocha + Chai + Sinon <br>
+- File Handling <br>
+- RegExp <br>
+- Views (ExpressJS) <br>
+- ECMA 6 <br>
+- Event Handling <br>
+- PAAS Deployment (Heroku) <br>
+- Version control + Collaboration (Git) <br>
+
 ## DEVELOPERS
 
 ### Adrián Rodríguez Bazaga
