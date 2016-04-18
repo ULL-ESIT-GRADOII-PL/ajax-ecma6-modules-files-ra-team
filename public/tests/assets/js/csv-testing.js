@@ -1,4 +1,4 @@
-let chaiExpect = chai.expect;
+var chaiExpect = chai.expect;
 
 describe("Comma Separated Values (CSV) Tests", function(){
    describe("Testing separated values", function(){
