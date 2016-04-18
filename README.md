@@ -81,7 +81,7 @@ Testing: https://csvajaxrateam.herokuapp.com/tests
 Result: 0 errors and 0 warnings.
 ![W3 Validation](http://i.imgur.com/hqHRNup.png?1 "W3 Validation")
 
-### Métricas JSHint (http://jshint.com/)
+### JSHint Metrics (http://jshint.com/)
 Result: 0 errors and 0 warnings.
 ![JSHint Metrics](http://i.imgur.com/4zDVjyW.png?1 "JSHint Metrics")
 
