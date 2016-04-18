@@ -1,6 +1,20 @@
 var chaiExpect = chai.expect;
 
 describe("Comma Separated Values (CSV) Tests", function(){
+   var sandbox; // Using Sinon
+   
+   beforeEach(function() {
+      // Using Sinon
+      sandbox = sinon.sandbox.create();
+      sandbox.stub(window.console, "log");
+      sandbox.stub(window.console, "error");
+   });
+  
+   afterEach(function() {
+      // Using Sinon
+      sandbox.restore();
+   });
+   
    describe("Testing separated values", function(){
 
       it("The three elements are correctly parsed", function(){
