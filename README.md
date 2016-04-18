@@ -40,6 +40,10 @@ $.ajax({
 
 The success callback function is passed the returned data, which will be an XML root element, text string, JavaScript file, or JSON object, depending on the MIME type of the response. It is also passed the text status of the response.
 
+## PREVIEW
+![Preview](http://i.imgur.com/s2DMXyr.png?1 "Preview")
+
+
 ## HEROKU DEPLOYMENT
 Application: https://csvajaxrateam.herokuapp.com/ <br>
 Testing: https://csvajaxrateam.herokuapp.com/tests
