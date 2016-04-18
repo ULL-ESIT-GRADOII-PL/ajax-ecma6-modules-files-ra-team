@@ -26,7 +26,7 @@ gulp.task('test', function() {
 });
 
 gulp.task('minify-js', function() {
-  gulp.src(['public/vendor/*.js', '*.js', 'public/*.js'])
+  gulp.src(['public/*.js', '*.js', 'public/*.js'])
     .pipe(minify({
         exclude: ['tasks'],
         ignoreFiles: ['.combo.js', '-min.js']
