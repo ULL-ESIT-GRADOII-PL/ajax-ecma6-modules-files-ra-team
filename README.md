@@ -1,4 +1,4 @@
-# Práctica 2: Comma separated values (CSV) with AJAX
+# Assignment: Comma separated values (CSV) using AJAX
 
 ![AJAX Image](http://www.svgopen.org/2008/papers/82-Web_Mapping_and_WebGIS_do_we_actually_need_to_use_SVG/ajax.jpg "AJAX Image")<br>
 [![Build Status](https://travis-ci.org/LambdaCode/AJAX-ECMA6-Modules-Files.svg?branch=master)](https://travis-ci.org/LambdaCode/AJAX-ECMA6-Modules-Files)
@@ -40,29 +40,48 @@ $.ajax({
 
 The success callback function is passed the returned data, which will be an XML root element, text string, JavaScript file, or JSON object, depending on the MIME type of the response. It is also passed the text status of the response.
 
-## HEROKU 
-https://cvsajax.herokuapp.com/
+## HEROKU DEPLOYMENT
+Application: https://csvajaxrateam.herokuapp.com/ <br>
+Testing: https://csvajaxrateam.herokuapp.com/tests
+
+## USED TECHNOLOGIES
+- jQuery <br>
+- AJAX <br>
+- SASS <br>
+- Underscore <br>
+- Karma + Mocha + Chai + Sinon <br>
+- File Handling <br>
+- RegExp <br>
+- Views (ExpressJS) <br>
+- ECMA 6 <br>
+- Event Handling <br>
+- PAAS Deployment (Heroku) <br>
+- Version control + Collaboration (Git) <br>
 
 ## DEVELOPERS
 
 ### Adrián Rodríguez Bazaga
   - Email: arodriba@ull.edu.es
-  - [Página personal](http://adrianbzg.github.io)
+  - [Personal page](http://adrianbzg.github.io)
 
 ### Rudolf Cicko
   - Email: alu0100824780@ull.edu.es
-  - [Página personal](http://alu0100824780.github.io)
+  - [Personal page](http://alu0100824780.github.io)
 
-**Enlace al campus de la asignatura Procesadores de Lenguajes:**
+** Link to the subject "Procesadores de Lenguajes" (Language Processors):**
 
 * [Procesadores de Lenguajes](https://campusvirtual.ull.es/1516/course/view.php?id=178)
 
+** Link to the assignment description:**
 
-### Validación por www.W3.org (validator.w3.org)
-Resultado: 0 errores y 0 warnings.
+* [Assignment description](https://campusvirtual.ull.es/1516/mod/page/view.php?id=189369)
+
+
+### Validated by www.W3.org (validator.w3.org)
+Result: 0 errors and 0 warnings.
 ![W3 Validation](http://i.imgur.com/hqHRNup.png?1 "W3 Validation")
 
-### Métricas JSHint (http://jshint.com/)
-Resultado: 0 errores y 0 warnings.
-![JSHint Metricas](http://i.imgur.com/4zDVjyW.png?1 "JSHint Metricas")
+### JSHint Metrics (http://jshint.com/)
+Result: 0 errors and 0 warnings.
+![JSHint Metrics](http://i.imgur.com/4zDVjyW.png?1 "JSHint Metrics")
 

@@ -37,8 +37,8 @@ const handleFileSelect = (evt) => {
   var files = evt.target.files;
 
   var reader = new FileReader();
-  reader.onload = (x) => {
-    $("#original").value(x.target.result);
+  reader.onload = (e) => {
+    $("#original").val(e.target.result);
   };
 
   reader.readAsText(files[0]);
@@ -82,10 +82,8 @@ $(document).ready(() => {
         );
     });
    /* Buttons to fill the textarea */
-   $('button.example').each((index, element) => {
-     $(element).click(() => {
-        dump(`${$(element).text()}.txt`);
-      });
+   $('button.example').each( (_,y) => {
+     $(y).click( () => { dump(`${$(y).text()}.txt`); });
    });
 
     // Setup the drag and drop listeners.
